@@ -12,18 +12,18 @@ body{
     font-weight: 400;
     font-size: 14px;
 }
-.clear_fix:after{
-    clear: both;
-    display: block;
-    content: " ";
-}
 .header{
     background-image:url("../img/nav.png");
     height: 36px;
     margin: 0 auto;
 }
+.nav_header{
+    margin: 0 auto;
+    width: 1400px;
+}
+
 .nav {
-  margin-left: 587px;
+  margin-left: 529px;
 }
 .nav li a{
     float: left;
