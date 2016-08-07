@@ -17,16 +17,11 @@ body{
     height: 36px;
     margin: 0 auto;
 }
-.nav_header{
-    margin: 0 auto;
-    width: 1400px;
-}
 
 .nav {
-  margin-left: 529px;
 }
 .nav li a{
-    float: left;
+    float: right;
     text-decoration: none;
     line-height: 36px;
     display: block;
@@ -39,8 +34,9 @@ body{
     color: white;
 }
 .header p{
+    color: white;
     height: 36px;
-    float: left;
+    float: right;
     text-align: center;
     line-height: 36px;
     background: url("../img/inventicons-29.png") no-repeat;
@@ -52,24 +48,26 @@ body{
     background-color:#4eabda;
     height: 31px;
     width: 1px;
-    float: left;
+    float: right;
     text-align: center;
     line-height: 36px;
     margin-top: 2px;
-    margin-left: 37px;
-
+    margin-left: 12px;
 }
 .ola{
     display: block;
     text-align: center;
-    float: left;
-    color: white;
+    float: right;
+    color: #60b5ed;
     text-decoration: none;
     line-height: 36px;
-    background-image: url("../img/layer-16.png");
     margin-left: 17px;
     padding-left: 13px;
     padding-right: 10px;
+}
+.ola:hover{
+    background-image: url("../img/layer-16.png");
+    color: white;
 }
 .ola span{
     text-decoration: underline;
@@ -107,7 +105,7 @@ body{
     padding-bottom: 18px
 }
 .input{
-    color: white;
+    color: #ccc;
     width: 253px;
     height: 32px;
     padding-left: 20px;
@@ -116,12 +114,12 @@ body{
     background-image: linear-gradient(to top, #111 0%, #0e0d0d 100%);
     box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
-
 .checkbox{
     width: 276px;
     height: 35px;
     margin: 17px auto;
     display: block;
+    color: #ccc;
 }
 .button{
     background-image: url("../img/button.png");
@@ -130,8 +128,11 @@ body{
     margin: -11px auto;
     display: block;
     color: white;
+    cursor:pointer;
+    border: 1px solid #4299d2;
 }
-.input:focus{
+.input:focus {
+    color: #fffbfb;
     background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
     box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
@@ -140,6 +141,7 @@ body{
     line-height: 16px;
     margin: 28px auto;
     text-align: center;
+    color: #ccc;
 }
 
 
