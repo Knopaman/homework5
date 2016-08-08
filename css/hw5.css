@@ -1,5 +1,5 @@
 @font-face {
-    font-family: '"Helvetica Neue"';
+    font-family: "Helvetica Neue";
     src: url('../fonts/helveticaneuecyr-light.eot');
     src: local('☺'), url('../fonts/helveticaneuecyr-light.woff') format('woff'), url('../fonts/helveticaneuecyr-light.ttf') format('truetype'), url('../fonts/helveticaneuecyr-light.svg') format('svg');
     font-weight: normal;
@@ -128,8 +128,7 @@ body{
     margin: -11px auto;
     display: block;
     color: white;
-    cursor:pointer;
-    border: 1px solid #4299d2;
+    cursor: pointer;
 }
 .input:focus {
     color: #fffbfb;
