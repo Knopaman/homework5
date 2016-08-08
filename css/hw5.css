@@ -125,8 +125,9 @@ body{
 }
 .button{
     border: none;
-    background-image: url("../img/button.png");
-    width: 151px;
+    border-radius: 2px;
+    background: linear-gradient(0deg, rgba(46,122,196,1) 0%, rgba(80,174,219,1) 100%);
+    width: 150px;
     height: 35px;
     margin: -11px auto;
     display: block;
